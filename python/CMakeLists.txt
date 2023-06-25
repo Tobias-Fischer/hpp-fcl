@@ -51,7 +51,7 @@ SET(${LIBRARY_NAME}_HEADERS
   pickle.hh
   )
 
-SET(ENABLE_PYTHON_DOXYGEN_AUTODOC TRUE CACHE BOOL "Enable automatic documentation of Python bindings from Doxygen documentation")
+SET(ENABLE_PYTHON_DOXYGEN_AUTODOC FALSE CACHE BOOL "Enable automatic documentation of Python bindings from Doxygen documentation")
 
 IF(    NOT ENABLE_PYTHON_DOXYGEN_AUTODOC
     OR NOT DOXYGEN_FOUND)
